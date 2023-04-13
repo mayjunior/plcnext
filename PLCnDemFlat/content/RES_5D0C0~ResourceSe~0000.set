@@ -1,0 +1,32 @@
+{ Type('AXCF2152') }
+RESOURCE IEC 61131-3
+{ DeviceProfileWorksheet('DeviceProfile', Id := 'c4cd30a9-3e27-48da-97d2-528fa57c1e0e') }
+{ DeviceProfile(
+    Name := 'RES_5D0C0E9EEF3346FA8EC06A87E4895689',
+    Parent := ( Name := 'AXCF2152', Version := '2023.0.0'), 
+    UpdateType := 'Manual',
+    FilesIni := 
+    [
+    ],
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '33554424',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
+    CommunicationType := 'TcpIp',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
+    DownloadFiles := 
+    [
+    ]
+)}
+
+
+TASK Cyclic100 (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#100ms), Id('0432ec38-bf68-42ad-96d2-d52f325cf12f') };
+
+PROGRAM MainInstance WITH Cyclic100 : Main { Id('4f8cfac8-913a-4dd5-a669-4b2901d4f069') };
+
+END_RESOURCE

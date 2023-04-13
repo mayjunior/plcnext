@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WatchWindow>
+   <Memento>
+      <RecipeMementos>{"ScrollPosition":"6","Caption":"[default]","Editable":false,"ExpandedWatchItems":["DEVICE_STATE@RES_5D0C0E9EEF3346FA8EC06A87E4895689","CPU_LOAD_PER_CORE@RES_5D0C0E9EEF3346FA8EC06A87E4895689.DEVICE_STATE"],"TopLevelWatchItems":[{"ItemId":"RES_5D0C0E9EEF3346FA8EC06A87E4895689.DEVICE_STATE","DisplayName":"DEVICE_STATE","DataType":"DEVICE_STATE_2152_TYPE","Domain":"IEC","SetValue":""}],"FormattedWatchItems":[],"IsActive":true}</RecipeMementos>
+   </Memento>
+</WatchWindow>

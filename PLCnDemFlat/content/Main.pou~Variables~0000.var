@@ -1,0 +1,17 @@
+{ CustomGroupDefinition('567b62aa-58be-4801-9bd7-1967f912aa90', '') }
+
+VAR_EXTERNAL
+    DEVICE_STATE : DEVICE_STATE_2152_TYPE { CustomGroupReference('567b62aa-58be-4801-9bd7-1967f912aa90') } {Id('865b59ea-f2c0-4e83-86a8-80228ef65d85')};
+END_VAR
+
+VAR_GLOBAL
+    siTemperature : SINT { OutputPort, CustomGroupReference('567b62aa-58be-4801-9bd7-1967f912aa90'), PROFICLOUD } {Id('d7731ee0-0a51-4ea5-a2f5-d64e223a7df8')};
+END_VAR
+
+VAR_EXTERNAL
+    RTC : RTC_TYPE { CustomGroupReference('567b62aa-58be-4801-9bd7-1967f912aa90') } {Id('2fd9ee7e-096f-4332-b091-b7c15f8b1b6e')};
+END_VAR
+
+VAR_GLOBAL
+    iSeconds : USINT { OutputPort, CustomGroupReference('567b62aa-58be-4801-9bd7-1967f912aa90'), PROFICLOUD } {Id('0ec091a4-bc9e-4943-aa0d-6be7718719de')};
+END_VAR
