@@ -14,4 +14,5 @@ END_VAR
 
 VAR_GLOBAL
     iSeconds : USINT { OutputPort, CustomGroupReference('567b62aa-58be-4801-9bd7-1967f912aa90'), PROFICLOUD } {Id('0ec091a4-bc9e-4943-aa0d-6be7718719de')};
+    iMinutes : USINT { OutputPort, CustomGroupReference('567b62aa-58be-4801-9bd7-1967f912aa90'), PROFICLOUD } {Id('bcbccf31-c880-4ec1-a3fe-fd2445a156a8')};
 END_VAR

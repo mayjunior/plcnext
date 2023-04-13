@@ -4,6 +4,7 @@
 VAR_CONFIG
     MainInstance.siTemperature : SINT { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24'), PROFICLOUD } {Id('b3976435-e561-4466-a923-c5f4f87f3be6')};
     MainInstance.iSeconds : USINT { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24'), PROFICLOUD } {Id('133a86ae-16f3-4a5c-9a08-037f9cbfca7f')};
+    MainInstance.iMinutes : USINT { OutputPort, ProgramGlobal, CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24'), PROFICLOUD } {Id('49309680-8bb5-481b-985b-3d6c726a0ba1')};
 END_VAR
 
 VAR_GLOBAL
