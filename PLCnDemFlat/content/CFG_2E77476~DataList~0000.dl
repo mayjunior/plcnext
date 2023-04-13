@@ -3281,6 +3281,25 @@
         <Program>Arp.Plc.Eclr / MainInstance</Program>
       </Role>
     </Datum>
+    <Datum Uuid="560f3886-256a-4925-85a8-7d9c9f163454">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="56f58ee6-1be8-43fc-80d0-4e8577fcce6b" SourceId="c1325d1e-8371-47fa-ba1a-1cdf02c9d383.L7_2">
+        <Name>iHours</Name>
+        <DataType>USINT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>USINT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>True</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance>MainInstance</ProgramInstance>
+        <Program>Arp.Plc.Eclr / MainInstance</Program>
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/f8c4fd3e-1726-45c3-a1cf-6ca52272fb31" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False" />
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/f8c4fd3e-1726-45c3-a1cf-6ca52272fb31" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
